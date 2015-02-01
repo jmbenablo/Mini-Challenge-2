@@ -1,0 +1,225 @@
+<html>
+	<head>
+		<style>
+			
+			li
+			{
+				display: inline;
+				list-style-type: none;
+				font-family: arial, sans-serif;
+				font-size: 13px;
+				font-color: rgb(64,64,64);
+				margin: 2px;
+			}
+
+			#header
+			{
+				position: relative;
+				float:left;
+				left:910px;
+				
+			}
+
+			#opt
+			{
+				display: inline-block;
+				background-image: url('icons.png');
+				background-position: -326px -52px;
+				opacity: 0.55;
+				width: 30px;
+				height: 30px;
+				position: relative;
+				top: 10px;
+
+			}
+
+			#signin
+			{
+				background-color: rgb(69,134,245);
+				-webkit-border-radius: 2px;
+				position: relative;
+				top:-5px;
+				height: 27px;
+				border:1px;
+				color: white;
+				font: bold;
+
+			}
+
+			#signin:hover
+			{
+
+				box-shadow: 0px 1px 0px rgba(0,0,0,0.15);
+			}
+
+			#logo
+			{
+				display: block;
+				position: relative;
+				top: 175px;
+				left: 330px;
+				width:524px;
+			}
+
+			.image
+			{
+				position: absolute;
+				top:-20px;
+				left:150px;
+				width: 269px;
+			}
+
+			input
+			{
+				width: 524px;
+				height: 27px;
+				
+				border: 1px;
+
+				border-color:  rgba(0,0,0,0.15);
+				border-style: solid;
+				position: absolute;
+				top: 89px;
+				left:20px;
+				
+			}
+
+			input:hover
+			{
+				border: 1px;
+				border-style: solid;
+				border-color:  rgba(0,0,0,0.3);
+
+			}
+
+			input:active
+			{
+				border: 1px solid rgb(66,133,244)
+			}
+
+			body
+			{
+				overflow: scroll;
+			}
+
+			.mic
+			{
+				position: relative;
+				float: right;
+				top:91px;
+				right: -15px;
+				width: 17px;
+				height: 23px;
+				opacity: 0.8;
+			}
+
+			.mic:hover
+			{
+				opacity: 1.0;
+			}
+
+			#buttons
+			{
+				position: relative;
+				top: 310px;
+				left:225px;
+				width: 1000px;
+			}
+
+			.search
+			{
+				border: 1px;
+				border-style:  solid;
+				border-color:  rgba(0,0,0,0.098);
+				border-style: solid;
+				color: rgb(68,68,68);
+				font: bold 11px/27px Arial, sans-serif;
+
+			}
+
+			.search:hover
+			{
+				border: 1px solid rgb(0,0,0,0.1);
+				box-shadow: 0px 1px 0px rgba(0,0,0,.15);
+				color: rgb(34,34,34);
+			}
+
+			p
+			{
+				position: relative;
+				left:-15px;
+				font-size: 13px;
+				font-family: arial, sans-serif;
+			}
+
+			div#footer
+			{
+				background-color: rgb(242,242,242);
+				border-color: rgb(228,228,228);
+				position: relative;
+				float: bottom;
+				bottom: -440px;
+				height: 30px;
+				
+			}
+
+			li.fLeft,li.fRight
+			{
+				color: rgb(34,34,34); 
+				position: relative;
+				top: 6px;
+			}
+
+			li.fRight
+			{
+				float: right;
+			}
+
+
+		</style>
+	</head>
+
+
+	<body>
+		
+		<ul id="header">
+			<li>+You</li>
+			<li>Gmail</li>
+			<li>Images</li>
+			<li id="opt"></li>
+			<li><button id="signin">Sign In</button</li>
+		</ul>
+		
+
+		<div id="logo">
+			<img  class="image" src="logo11w.png"></img>
+			<input type="text"><img src="mic.gif" width="17px" height="23px" class="mic"></img></input>
+		</div>
+
+
+		<div id="buttons">
+			<ul>
+				<li><button class="search">Google Search</button></li>
+				<li><button class="search">I'm Feeling Lucky</button></li>
+				<br>
+				<br>
+				<p>Google.com.ph offered in: Filipino  Cebuano</p>
+			</ul>
+		</div>
+
+		<div id="footer">
+			<ul>
+				<li class="fLeft">Advertising</li>
+				<li class="fLeft">Business</li>
+				<li class="fLeft">About</li>
+				<li class="fRight">Privacy</li>
+				<li class="fRight">Terms</li>
+				<li class="fRight">Settings</li>
+			</ul>
+		</div>
+	
+	</body>
+
+
+
+</html>
